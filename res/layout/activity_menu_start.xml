@@ -19,5 +19,12 @@
             android:text="Nos publications"
             
             />
+        
+        <Button 
+            android:id="@+id/bouton02MenuStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bouton n°2"
+            />
 
     </LinearLayout>

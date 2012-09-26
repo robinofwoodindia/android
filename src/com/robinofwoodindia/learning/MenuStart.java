@@ -17,6 +17,7 @@ public class MenuStart extends Activity {
         
         final TextView $MonTexte = (TextView) findViewById(R.id.textview01MenuStart);
         final Button $Bouton01MenuStart = (Button) findViewById(R.id.bouton01MenuStart);
+        final Button $Bouton02MenuStart = (Button) findViewById(R.id.bouton02MenuStart);
         
         $Bouton01MenuStart.setOnClickListener(new OnClickListener() {
 			
@@ -26,6 +27,16 @@ public class MenuStart extends Activity {
 				$MonTexte.setText("Test Affichage sur click et c'est nouveau et good sur les 2 postes");
 			}
 		});
+        
+        $Bouton02MenuStart.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				$MonTexte.setText("C'est le Bouton 2");
+			}
+		});
+        
         
         
     }
