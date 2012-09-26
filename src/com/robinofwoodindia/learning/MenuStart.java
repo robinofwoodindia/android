@@ -23,7 +23,7 @@ public class MenuStart extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				$MonTexte.setText("Test Affichage sur click et c'est nouveau");
+				$MonTexte.setText("Test Affichage sur click et c'est nouveau et good sur les 2 postes");
 			}
 		});
         
